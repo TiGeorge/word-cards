@@ -16,4 +16,9 @@ public class IndexController {
         return "training/wordsCards";
     }
 
+    @GetMapping("dictionary/newWord")
+    public String openDictionary() {
+        return "dictionary/newWord";
+    }
+
 }
